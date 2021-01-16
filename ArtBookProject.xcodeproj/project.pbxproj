@@ -16,6 +16,7 @@
 		422D877025B22C1D004EFE40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 422D876E25B22C1D004EFE40 /* LaunchScreen.storyboard */; };
 		422D877B25B22C1D004EFE40 /* ArtBookProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422D877A25B22C1D004EFE40 /* ArtBookProjectTests.swift */; };
 		422D878625B22C1D004EFE40 /* ArtBookProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422D878525B22C1D004EFE40 /* ArtBookProjectUITests.swift */; };
+		422D879725B38972004EFE40 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422D879625B38972004EFE40 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		422D878125B22C1D004EFE40 /* ArtBookProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtBookProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		422D878525B22C1D004EFE40 /* ArtBookProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtBookProjectUITests.swift; sourceTree = "<group>"; };
 		422D878725B22C1D004EFE40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		422D879625B38972004EFE40 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				422D876E25B22C1D004EFE40 /* LaunchScreen.storyboard */,
 				422D877125B22C1D004EFE40 /* Info.plist */,
 				422D876925B22C1C004EFE40 /* ArtBookProject.xcdatamodeld */,
+				422D879625B38972004EFE40 /* DetailViewController.swift */,
 			);
 			path = ArtBookProject;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			files = (
 				422D876B25B22C1C004EFE40 /* ArtBookProject.xcdatamodeld in Sources */,
 				422D876525B22C1C004EFE40 /* ViewController.swift in Sources */,
+				422D879725B38972004EFE40 /* DetailViewController.swift in Sources */,
 				422D876125B22C1C004EFE40 /* AppDelegate.swift in Sources */,
 				422D876325B22C1C004EFE40 /* SceneDelegate.swift in Sources */,
 			);
