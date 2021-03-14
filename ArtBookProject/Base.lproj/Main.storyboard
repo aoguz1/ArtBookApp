@@ -64,13 +64,29 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="x9d-hR-DbA">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="addImage" translatesAutoresizingMaskIntoConstraints="NO" id="x9d-hR-DbA">
                                 <rect key="frame" x="57" y="115" width="313" height="285"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="313" id="9AN-Po-UkJ"/>
                                     <constraint firstAttribute="height" constant="285" id="Hh5-hb-uRr"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xur-wi-VQc">
+                                <rect key="frame" x="196" y="637" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="saveButton:" destination="nsA-yB-bsk" eventType="touchUpInside" id="VQV-LI-tcD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NF0-SG-4H2">
+                                <rect key="frame" x="182" y="700" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="DeleteAll"/>
+                                <connections>
+                                    <action selector="deleteAll:" destination="nsA-yB-bsk" eventType="touchUpInside" id="c7J-U6-bia"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="taw-4a-kgT"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -95,7 +111,8 @@
                         <outlet property="artistTextField" destination="i7U-94-rrG" id="5TF-Zr-7yN"/>
                         <outlet property="imageView" destination="x9d-hR-DbA" id="hTN-Zw-cql"/>
                         <outlet property="nameTextField" destination="4vG-nW-Oh6" id="BkU-GK-5VI"/>
-                        <outlet property="yearTextField" destination="RfI-mT-KZE" id="8eA-Ev-dpP"/>
+                        <outlet property="saveButton" destination="xur-wi-VQc" id="Aij-bo-wHb"/>
+                        <outlet property="yearTextField" destination="FDM-3j-wH8" id="juH-v8-LUO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5SL-qW-QTI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -122,6 +139,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="addImage" width="220" height="220"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
