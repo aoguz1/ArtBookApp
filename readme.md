@@ -1,6 +1,6 @@
 ### Artbook App
 
-A swift basic city guide project
+A swift basic art book guide project
 
 ![alt](https://raw.githubusercontent.com/aoguz1/ArtBookApp/master/github/ezgif.com-video-to-gif.gif)
 
